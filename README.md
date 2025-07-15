@@ -33,10 +33,10 @@ You can install directly from GitHub using `curl` or `wget` (no sudo required):
 mkdir -p ~/.local/bin
 
 # Using curl
-curl -o ~/.local/bin/tdh "https://raw.githubusercontent.com/clys-man/tmux-dev-helper/main/tdh.sh" && chmod +x ~/.local/bin/tdh
+curl -o ~/.local/bin/tdh "https://raw.githubusercontent.com/clys-man/tdh/main/tdh.sh" && chmod +x ~/.local/bin/tdh
 
 # Or using wget
-wget -O ~/.local/bin/tdh "https://raw.githubusercontent.com/clys-man/tmux-dev-helper/main/tdh.sh" && chmod +x ~/.local/bin/tdh
+wget -O ~/.local/bin/tdh "https://raw.githubusercontent.com/clys-man/tdh/main/tdh.sh" && chmod +x ~/.local/bin/tdh
 ```
 
 Make sure `~/.local/bin` is in your `$PATH`. You can add this to your `~/.bashrc`, `~/.zshrc`, or equivalent:
